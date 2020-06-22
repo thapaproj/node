@@ -6,7 +6,7 @@ app.get('/', (req, res) =>{
 });
 
 const port = process.env.port || 3000;
-app.listen(Port, () =>{
+app.listen(port, () =>{
     console.log("Wazzapppp");
 });
 
